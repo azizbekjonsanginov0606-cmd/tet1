@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+@layer components {
+  .btn {
+    @apply px-[30px] py-[10px] bg-[#12AD8B] text-white rounded-[50px] hover:bg-[#0E8C6A] transition;
+  }
+}
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+}
